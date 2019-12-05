@@ -6,7 +6,7 @@ eureka:
       defaultZone: http://localhost:10086/eureka
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/lx?characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/zaixianexam?characterEncoding=utf-8
     username: root
     password: 111
     driver-class-name: com.mysql.jdbc.Driver
@@ -19,3 +19,4 @@ spring:
   redis:
     host: localhost
     port: 6379
+
