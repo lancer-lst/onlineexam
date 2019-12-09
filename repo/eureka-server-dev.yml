@@ -8,3 +8,9 @@ eureka:
     fetch-registry: false
   instance:
     hostname: localhost
+file:
+  path: D://picture//
+spring:
+  resources:
+    static-locations:  file:${file.path}
+
